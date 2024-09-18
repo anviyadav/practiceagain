@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(19, 105, 170); 
+    color: #fff; 
+    text-align: center;
+ }
+ .bg>h1{
+     font-size: 300%;
+ }
+ @media (max-width: 480px){
+    .bg>h1{
+        font-size: 200%;
+    }
+ }
+ .bg{
+     font-weight: bold;
+     font-size: large;
+ }
+ @media (max-width: 480px){
+    .bg{
+        font-weight: 600;
+        font-size: x-large;
+        text-align: center;
+    }
+ }
+ .text{
+     font-weight: bold;
+     font-size: large;
+     position: absolute;
+     top: 470px;
+     left: 540px;
+ }
+ @media (max-width: 480px){
+    .text{
+        font-weight: 600;
+        font-size: 16px;
+        position: absolute;
+        top: 400px;
+        left: 20px;
+    }
+ }
+ .text>h1{
+     font-weight: bolder;
+     line-height: 10px;
+     letter-spacing: 20%;
+ }
+ @media (max-width: 480px) {
+    .text>h1 {
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+ }
+ .text h2{
+     font-size: x-large;
+ }
+ @media (max-width: 480px){
+    .text h2{
+        font-size: 28px;
+    }
+ }
+ button{
+     color: rgb(19, 96, 218);
+     border: 1px solid white;
+     border-radius: 15px;
+     height: 75px;
+     width: 250px;
+     padding: 10px;
+     font-weight: bold;
+     font-size: 120%;
+     margin: 50px;
+ }
+ @media (max-width: 480px) {
+    button{
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        height: 35px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+ }
+ .text>img{
+     height: 25px;
+     width: auto;
+     border-radius: 50%;
+ }
+ @media (max-width: 480px) {
+    .text>img{
+        height: 17px;
+        width: 13px;
+        border-radius: 10px;
+    }
+ }
+ div>h2{
+     display: inline;
+ }
+ .button{
+     position: absolute;
+     top: 600px;
+     left: 430px;
+ }
+ @media (max-width: 480px) {
+    .button {
+        position: absolute;
+        top: 550px;
+        left: 10px;
+    }
+ }
+ .img{
+     display: flex;
+ }
+ .ashok>img{
+     position: absolute;
+     top: 200px;
+     left:650px;
+     height: 250px;
+     width: 150px;
+ }
+ @media (max-width) {
+    .ashok>img{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        height: 100px;
+        width: 60px;
+    }
+ }
+ .azadi>img{
+     position: absolute;
+     top: 250px;
+     left: 1100px;
+     height: 150px;
+     width: 250px;
+ }
